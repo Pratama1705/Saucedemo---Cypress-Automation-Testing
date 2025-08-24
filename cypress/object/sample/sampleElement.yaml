@@ -1,0 +1,44 @@
+objectModels:
+  modalPromo:
+    id: "cssSelector==header[id='chakra-modal--header-1']"
+    en: "cssSelector==header[id='chakra-modal--header-1']"
+
+  closeModalPromo:
+    id: "cssSelector==header[id='chakra-modal--header-1'] > svg"
+    en: "cssSelector==header[id='chakra-modal--header-1'] > svg"
+
+  loginNavigationBar:
+    id: "cssSelector==a[href='/login']"
+    en: "cssSelector==a[href='/login']"
+
+  tabPhoneNumber:
+    id: "cssSelector==div[id='page-login__tabs-number']"
+    en: "cssSelector==div[id='page-login__tabs-number']"
+
+  tabEmail:
+    id: "cssSelector==div[id='page-login__tabs-email']"
+    en: "cssSelector==div[id='page-login__tabs-email']"
+
+  loginButton:
+    id: "cssSelector==button[id='page-login__button-login']"
+    en: "cssSelector==button[id='page-login__button-login']"
+
+  innerLineErrorFillPhonenUmber:
+    id: "xpath==//p[text()='Mohon lengkapi nomor handphone kamu']"
+    en: "xpath==//p[text()='Please.....']"
+
+  paragraph:
+    id: 'cssSelector==p'
+    en: 'cssSelector==p'
+
+  fieldPhoneNumber:
+    id: 'cssSelector==input[name="phone"]'
+    en: 'cssSelector==input[name="phone"]'
+
+  fieldEmail:
+    id: 'cssSelector==input[id="page-login__tabs-email__input-email"]'
+    en: 'cssSelector==input[id="page-login__tabs-email__input-email"]'
+
+  fieldPassword:
+    id: 'cssSelector==input[name="password"]'
+    en: 'cssSelector==input[name="password"]'
