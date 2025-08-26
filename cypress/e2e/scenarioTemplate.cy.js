@@ -1,12 +1,12 @@
-describe('End to End Test Sample', () => {
+describe('End to End Test Recruitment Paragon - Muhammad Akbar Pratama Putra', () => {
   beforeEach(() => {
     cy.viewport(1280, 720);
-    cy.visit('');
+    cy.visit('https://recruitment-staging-queenbee.paradev.io/');
     cy.wait(3000);
 
     cy.ifShownClick('header[id="chakra-modal--header-1"]', 'header[id="chakra-modal--header-1"] > svg');
 
-    cy.textShouldVisible('sample/sampleElement/paragraph', '');
+    cy.textShouldVisible('sample/sampleElement/paragraph', 'Selamat datang di Beyondly!');
   });
 
   it('Users at login page and want to go to login page', () => {
